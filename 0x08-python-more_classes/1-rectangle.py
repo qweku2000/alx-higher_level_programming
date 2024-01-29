@@ -26,8 +26,7 @@ class Rectangle:
     @width.setter
     def width(self,value):
         """
-        Args:
-            value (int): The width of the Rectangle.
+        value (int): The width of the Rectangle.
         Raises:
             TypeError: If `value` type is not `int`.
             ValueError: If `value` is less than `0`.
@@ -47,8 +46,7 @@ class Rectangle:
 
     @height.setter
     """
-     Args:
-            value (int): The height of the Rectangle.
+        value (int): The height of the Rectangle.
         Raises:
             TypeError: If `value` type is not `int`.
             ValueError: If `value` is less than `0`.
