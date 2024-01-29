@@ -98,13 +98,13 @@ class Rectangle:
 
         for i in range(w):
             for a in range(h):
-                return base += #
+                base += '#'
 
         if i != h - 1:
-            rect_str += '\n'
+            base += '\n'
                 
     def __str__(self):
         """
         Returns a string with the representation of the Rectangle.
         """
-        return __draw_rec()
+        return self.__draw_rec()
