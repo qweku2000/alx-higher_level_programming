@@ -25,6 +25,13 @@ class Rectangle:
         return self.__width
     @width.setter
     def width(self,value):
+        """
+        Args:
+            value (int): The width of the Rectangle.
+        Raises:
+            TypeError: If `value` type is not `int`.
+            ValueError: If `value` is less than `0`.
+        """
         if type(value) is not int:
             raise TypeError("value must be an integer")
         if value < 0:
@@ -35,11 +42,17 @@ class Rectangle:
     """
     Returns the width of the Rectangle
     """
-
     def height(self):
         return self.__height
 
     @height.setter
+    """
+     Args:
+            value (int): The height of the Rectangle.
+        Raises:
+            TypeError: If `value` type is not `int`.
+            ValueError: If `value` is less than `0`.
+   """
     def height(self,value):
          if type(value) is not int:
             raise TypeError("value must be an integer")
